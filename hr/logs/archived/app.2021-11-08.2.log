@@ -1,0 +1,6 @@
+2021-11-08 17:27:22,465 TRACE com.ibcs.hr.api.EmpApi [http-nio-9090-exec-6] getOne executed from api
+2021-11-08 17:27:22,816 TRACE com.ibcs.hr.service.EmpService [http-nio-9090-exec-6] findById executed
+2021-11-08 17:31:53,064 TRACE com.ibcs.hr.api.EmpApi [http-nio-9090-exec-8] getAll executed from api
+2021-11-08 17:31:55,652 TRACE com.ibcs.hr.api.EmpApi [http-nio-9090-exec-9] getAll executed from api
+2021-11-08 17:31:57,352 TRACE com.ibcs.hr.api.EmpApi [http-nio-9090-exec-10] getAll executed from api
+2021-11-08 17:32:01,295 TRACE com.ibcs.hr.api.EmpApi [http-nio-9090-exec-1] getAll executed from api

@@ -1,0 +1,2 @@
+2021-10-18 10:44:59,119 TRACE com.ibcs.tnl.api.LeaveAppApi [http-nio-8080-exec-1] Okay from findByIdWithemp 
+2021-10-18 10:44:59,123 TRACE com.ibcs.tnl.api.LeaveAppApi [http-nio-8080-exec-1]  findLeaveAppWithEmp executed from service

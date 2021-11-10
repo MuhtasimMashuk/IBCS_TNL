@@ -1,0 +1,4 @@
+2021-11-02 15:07:09,793 INFO com.ibcs.tnl.TnlApplication [restartedMain] Starting TnlApplication using Java 11.0.11 on ibcsdev17 with PID 14208 (D:\project\IBCS\IBCS-TNL\tnl\target\classes started by Intern in D:\project\IBCS\IBCS-TNL\tnl)
+2021-11-02 15:07:09,826 DEBUG com.ibcs.tnl.TnlApplication [restartedMain] Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-11-02 15:07:09,827 INFO com.ibcs.tnl.TnlApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-02 15:08:23,376 INFO com.ibcs.tnl.TnlApplication [restartedMain] Started TnlApplication in 75.491 seconds (JVM running for 84.679)

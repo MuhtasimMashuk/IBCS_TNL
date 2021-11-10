@@ -1,0 +1,24 @@
+server:
+    port: 9090
+    servlet:
+      context-path: /hr
+
+spring:
+  application:
+    name: HR-SERVICE
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Qwer123#
+    driverClassName: org.postgresql.Driver
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

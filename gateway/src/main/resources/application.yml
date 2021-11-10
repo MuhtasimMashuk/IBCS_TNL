@@ -1,0 +1,40 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: ADMIN-SERVICE
+          uri: lb://ADMIN-SERVICE
+          predicates:
+            - Path=/admin/**
+        - id: HR-SERVICE
+          uri: lb://HR-SERVICE
+          predicates:
+            - Path=/hr/**
+        - id: LEAVE-SERVICE
+          uri: lb://LEAVE-SERVICE
+          predicates:
+            - Path=/leave/**
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+  autoconfigure:
+     exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+

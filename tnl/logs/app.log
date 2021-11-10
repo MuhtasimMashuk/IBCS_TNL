@@ -1,0 +1,7 @@
+2021-11-09 10:25:12,010 INFO com.ibcs.tnl.TnlApplication [restartedMain] Starting TnlApplication using Java 11.0.11 on ibcsdev17 with PID 13292 (D:\project\IBCS\IBCS-TNL\tnl\target\classes started by Intern in D:\project\IBCS\IBCS-TNL\tnl)
+2021-11-09 10:25:12,016 DEBUG com.ibcs.tnl.TnlApplication [restartedMain] Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-11-09 10:25:12,017 INFO com.ibcs.tnl.TnlApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-09 10:25:32,476 INFO com.ibcs.tnl.TnlApplication [restartedMain] Started TnlApplication in 23.256 seconds (JVM running for 30.132)
+2021-11-09 17:03:15,818 TRACE com.ibcs.tnl.api.LeaveTypeApi [http-nio-8080-exec-1] get all executed
+2021-11-09 17:03:15,825 TRACE com.ibcs.tnl.api.LeaveAppApi [http-nio-8080-exec-2] find all executed from service
+2021-11-09 17:03:16,014 TRACE com.ibcs.tnl.service.LeaveTypeService [http-nio-8080-exec-1]  getAll executed
